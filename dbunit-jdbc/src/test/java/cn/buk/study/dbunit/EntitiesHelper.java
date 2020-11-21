@@ -1,7 +1,7 @@
 package cn.buk.study.dbunit;
 
 import cn.buk.study.dbuit.User;
-import junit.framework.Assert;
+import org.junit.Assert;
 
 public class EntitiesHelper {
   private static User baseUser = new User(1,"admin","123","管理员");
